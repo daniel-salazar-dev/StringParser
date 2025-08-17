@@ -1,0 +1,2 @@
+# Overview
+The StringParser program is a C# console application that parses structured field definition strings into tree hierarchies and provides multiple traversal strategies to output the parsed data in different formats. The program is designed to handle nested field structures represented as parentheses-delimited strings with comma-separated field names. It is built with extensibility in mind so that it can serve as a solid foundation for a more robust application.
