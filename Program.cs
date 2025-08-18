@@ -94,7 +94,7 @@ class Program
             }
             else
             {
-                results = ExecuteTraversals(tree, new TraversalStrategyRegistry(), ["depth-first", "alphabetical"]);
+                results = ExecuteTraversals(tree, registry, ["depth-first", "alphabetical"]);
             }
 
             OutputFormatter.PrintBulletList(results["depth-first"], "Output 1 (Depth-First Traversal)");
@@ -127,3 +127,4 @@ class Program
         return results;
     }
 }
+
